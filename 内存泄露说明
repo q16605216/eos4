@@ -1,0 +1,4 @@
+漏洞说明
+libraries/chain/webassembly/runtimes/eos-vm-oc/LLVMEmitIR.cpp:148
+
+这个代码new了一个对象，但是析构时没有释放
